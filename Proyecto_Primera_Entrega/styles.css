@@ -5,12 +5,10 @@
   font-family: sans-serif;
  }
  
- html{
-    position: relative;
+ body {
     background:  darkslategrey;
-    height: 100vh;
-    width: 100vw;
-    
+    min-height: 100vh;
+    width: 100%;
 } 
 /*/////PRE LOADER //////////////////////////*/
 .page-loader{

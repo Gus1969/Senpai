@@ -5,13 +5,10 @@
     font-family: sans-serif;
    }
    
-   html{
-      /* position: relative; */
+   body {
       background:  darkslategrey;
-      background-size: cover;
-      background-repeat: no-repeat;
-      width: 100vw;
-      
+      width: 100%;
+      min-height: 100vh;
   } 
   
   nav {
@@ -21,12 +18,10 @@
    grid-template-rows: 90px;
    justify-items: center;
    align-items: center;
-   
    grid-column-start: 1 ;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
-   
   }
   nav .logo  {
     grid-column-start: 1 ;
@@ -105,9 +100,7 @@
     background: transparent;
     color: darkslategray;
   }
-  
-  
-  /* Full-width input fields */
+
   input[type=text], input[type=password] {
     width: 500px;
     padding: 15px;
@@ -120,13 +113,9 @@
   
    input[type=text]:focus, input[type=password]:focus, select:focus {
      outline: none; 
-  }
-   
-   
-  hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-  }
+     background: transparent;
+   }
+
   /* //////////////////////////// COMIENZO DE ESTILOS EN MENSAJES DE ERROR ////////////////////////////// */
   #errormsg {
     color:  rgb(255, 255, 255);

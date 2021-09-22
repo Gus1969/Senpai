@@ -5,12 +5,10 @@
     font-family: sans-serif;
    }
    
-   html{
-      position: relative;
+   body{
       background:  darkslategrey;
-      background-size: cover;
-      background-repeat: no-repeat;
-      width: 100vw;
+      width: 100%;
+     min-height: 100vh;
   } 
   nav {
     display: grid;
