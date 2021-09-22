@@ -1,51 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contacto</title>
-    <link rel="stylesheet" href="./contacto.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./contacto.css" />
+  </head>
+  <body>
     <nav>
-        <div class="logo"> 
-         <h1>HITS</h1>
-       </div>
-         <ul class="enlaces">
-           <li class="item"> <a class="toppers"  href="./index.html"> Inicio</a></li>
-           <li class="item"> <a  class="toppers" href="songs.html"> Canciones</a></li>
-         </ul>
-         <ul class="register">
-           <li class="item"> <a class="toppers" href="inicio.html">Ingrese</a></li>
-           <li class="item"> <a class="toppers"  href="registro.html"> Registro</a></li>
-           <li class="item"> <a class="toppers" href="contacto.html"> Contacto</a></li>
-         </ul>
-       
-     </nav>
-     <section>
-       <form action="" >
-       <h2> Sugerencias</h2>
-       <br>
-       <br>
-       <label for="nombre">Nombre <span id="errormsgName"></span> </label>
-       <input type="text" name="nombre" id="nombre" required>
-       <br>
-       <br>
-       <label for="email">Email<span id="errormsgemail"></span></label>
-       <input type="email" name="email" id="email" required>
-       <br>
-       <br>
-       <label for="msj">Mensaje <span id="errormessage"></span> </label>
-       <textarea  type="text"   name="msj" id="mensaje" ></textarea> 
-       <button type="submit" name="submit" onclick="return reach(this.form)">Enviar </button>
+      <div class="logo">
+        <h1>HITS</h1>
+      </div>
+      <ul class="enlaces">
+        <li class="item"><a class="toppers" href="./index.html"> Inicio</a></li>
+        <li class="item">
+          <a class="toppers" href="songs.html"> Canciones</a>
+        </li>
+      </ul>
+      <ul class="register">
+        <li class="item"><a class="toppers" href="inicio.html">Ingrese</a></li>
+        <li class="item">
+          <a class="toppers" href="registro.html"> Registro</a>
+        </li>
+        <li class="item">
+          <a class="toppers" href="contacto.html"> Contacto</a>
+        </li>
+      </ul>
+    </nav>
+    <section>
+      <form action="">
+        <h2>Sugerencias</h2>
+        <br />
+        <br />
+        <label for="nombre">Nombre <span id="errormsgName"></span> </label>
+        <input type="text" name="nombre" id="nombre" required />
+        <br />
+        <br />
+        <label for="email">Email<span id="errormsgemail"></span></label>
+        <input type="email" name="email" id="email" required />
+        <br />
+        <br />
+        <label for="msj">Mensaje <span id="errormessage"></span> </label>
+        <textarea type="text" name="msj" id="mensaje"></textarea>
+        <button type="submit" name="submit" onclick="return reach(this.form)">
+          Enviar
+        </button>
       </form>
-     </section>
-     <footer class="footer">
-      <span ><p>@Derechos Reservados</p></span>
+    </section>
+    <footer class="footer">
+      <span><p>@Derechos Reservados</p></span>
     </footer>
 
     <script src="./index.js"></script>
-    
-</body>
+  </body>
 </html>
