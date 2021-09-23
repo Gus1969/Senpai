@@ -203,10 +203,10 @@ button .canciones {
   list-style: none;
   position: relative;
 
-  -webkit-transition: transform .5s;
-  -moz-transition: transform .5s;
-  -o-transition: transform .5s;
-  transition: transform .5s;
+  -webkit-transition: transform 1s;
+  -moz-transition: transform 1s;
+  -o-transition: transform 1s;
+  transition: transform 1s;
 }
 .carousel .slides li {
   width: 25%;
@@ -232,7 +232,7 @@ button .canciones {
   margin-right: 0.5em;
   vertical-align: middle;
 }
-.carousel li span.author {
+.carousel li span.artista {
   margin-top: 2.5em;
   font-size: 1.2em;
   color: white;
@@ -337,7 +337,7 @@ footer {
   justify-items: center;
   align-items: center;
   background: rgba(255, 0, 255, 0.7);
-  bottom: 0;
+ 
 }
 footer span p {
   color: white;
@@ -478,7 +478,7 @@ footer span p {
       vertical-align: middle;
     
     }
-    .carousel li span.author {
+    .carousel li span.artista {
       margin-top: 1em;
       font-size: 1em;
       color: white;
@@ -674,7 +674,7 @@ footer span p {
     margin-right: 0.5em;
     vertical-align: middle;
   }
-  .carousel li span.author {
+  .carousel li span.artista {
     margin-top: 2.5em;
     font-size: 1.2em;
     color: white;
