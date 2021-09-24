@@ -50,11 +50,12 @@
   }
   .item .toppers {
     list-style-type: none;
-    color: white;
-      display: inline;
-    font-size: 20px;
+    font-size: 13px;
+      padding: 2px;
       text-decoration: none;
-      padding: 10px;
+      color:  white;
+      font-weight: 800;
+      text-transform: uppercase;
   }
   nav .enlaces  .item .toppers , nav .register .item .toppers{
     position: relative;
@@ -182,11 +183,12 @@
     }
     .item .toppers {
       list-style-type: none;
-      color: white;
-        display: inline;
       font-size: 14px;
+       padding: 4px;
         text-decoration: none;
-        padding: 8px;
+        color:  white;
+        font-weight: 700;
+        text-transform: uppercase;
     }
     nav .enlaces  .item .toppers , nav .register .item .toppers{
       position: relative;
@@ -272,7 +274,7 @@
    }
 }
   
-  @media (min-width: 769px) and  (max-width: 1225px) {
+  @media (min-width: 769px) and  (max-width: 1325px) {
     nav {
       display: grid;
      background: rgba(255, 0, 255, 0.7);
@@ -312,11 +314,12 @@
     }
     .item .toppers {
       list-style-type: none;
-      color: white;
-        display: inline;
-      font-size: 14px;
+      font-size: 11px;
+       padding: 2px;
         text-decoration: none;
-        padding: 6px;
+        color:  white;
+        font-weight: 800;
+        text-transform: uppercase;
     }
     nav .enlaces  .item .toppers , nav .register .item .toppers{
       position: relative;

@@ -39,19 +39,20 @@
   .nav .enlaces{
     grid-column-start: 2 ;
     grid-column-end: 3;
-  
+   
   }
   .enlaces .item {
     display: inline;
-    padding: 20px;
+    padding: 30px;
   }
   .item .toppers {
     list-style-type: none;
-    color: white;
-      display: inline;
-    font-size: 20px;
+    font-size: 15px;
+      padding: 10px;
       text-decoration: none;
-      padding: 7px;
+      color:  white;
+      font-weight: 800;
+      text-transform: uppercase;
   }
   nav .enlaces  .item .toppers , nav .register .item .toppers{
     position: relative;
@@ -75,13 +76,14 @@
     transition: all .5s;
   }
    
-   nav.registro {
+   nav.register {
     grid-column-start: 3 ;
     grid-column-end: 4;
+    justify-self: end;
   }
   .register .item {
   display: inline;
-  padding: 20px;
+  padding: 10px;
   }
  
   .title {
@@ -160,7 +162,7 @@ form.example::after {
     margin: 100px 250px;
 }
 
-@media (min-width:768px) and (max-width:  1200px) {
+@media (min-width:768px) and (max-width:  1025px) {
   nav {
     display: grid;
   background: rgba(255, 0, 255, 0.7);
@@ -199,11 +201,12 @@ form.example::after {
   }
   .item .toppers {
     list-style-type: none;
-    color: white;
-      display: inline;
-    font-size: 14px;
+    font-size: 15px;
+     padding: 5px;
       text-decoration: none;
-      padding: 8px;
+      color:  white;
+      font-weight: 700;
+      text-transform: uppercase;
   }
   nav .enlaces  .item .toppers , nav .register .item .toppers{
     position: relative;
@@ -218,7 +221,7 @@ form.example::after {
     content: '.';
     color: transparent;
     background: darkslategray;
-    height: 3px;
+    height: 5px;
   }
   nav ul li a:hover:after {
     width: 100%;
@@ -319,11 +322,12 @@ form.example::after {
   }
   .item .toppers {
     list-style-type: none;
-    color: white;
-      display: inline;
     font-size: 14px;
+     padding: 4px;
       text-decoration: none;
-      padding: 10px;
+      color:  white;
+      font-weight: 800;
+      text-transform: uppercase;
   }
   nav .enlaces  .item .toppers , nav .register .item .toppers{
     position: relative;

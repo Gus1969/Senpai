@@ -121,7 +121,7 @@ item.toppers, .item.toppers:after, .items.toppers:before{
 }
 .item .toppers {
   list-style-type: none;
-  font-size: 17px;
+  font-size: 15px;
     padding: 10px;
     text-decoration: none;
     color:  white;
