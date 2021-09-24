@@ -90,10 +90,30 @@ nav .logo  {
   padding: 15px;
 }
 
-.nav .enlaces{
+nav .enlaces{
   grid-column-start: 2 ;
   grid-column-end: 3;
-
+}
+nav .enlaces  .item .toppers , nav .register .item .toppers{
+  position: relative;
+}
+nav ul li a::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: darkslategray;
+  height: 3px;
+}
+nav ul li a:hover:after {
+  width: 100%;
+}
+item.toppers, .item.toppers:after, .items.toppers:before{
+  transition: all .5s;
 }
 .enlaces .item {
   display: inline;
@@ -101,14 +121,13 @@ nav .logo  {
 }
 .item .toppers {
   list-style-type: none;
-  color: white;
-    display: inline;
-  font-size: 20px;
- 
-    text-decoration: none;
+  font-size: 17px;
     padding: 10px;
+    text-decoration: none;
+    color:  white;
+    font-weight: 800;
+    text-transform: uppercase;
 }
- 
  nav.register {
   grid-column-start: 3 ;
   grid-column-end: 4;
@@ -119,11 +138,7 @@ nav .logo  {
 display: inline;
 padding: 20px;
 }
-.item .toppers:hover {
-  padding: 20px;
-  border-radius: 10%;
-  text-transform: uppercase;
-}
+
 
 
 
@@ -367,12 +382,40 @@ footer span p {
   }
   .item .toppers {
     list-style-type: none;
-    color: white;
-      display: inline;
-    font-size: 12px;
+    font-size: 14px;
+     padding: 4px;
       text-decoration: none;
-     
+      color:  white;
+      font-weight: 700;
+      text-transform: uppercase;
   }
+  nav .enlaces  .item .toppers , nav .register .item .toppers{
+    position: relative;
+  }
+  nav ul li a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: darkslategray;
+    height: 3px;
+  }
+  nav ul li a:hover:after {
+    width: 100%;
+  }
+  .enlaces .item {
+    display: inline;
+    padding: 20px;
+  }
+  
+  .item.toppers, .item.toppers:after, .items.toppers:before{
+    transition: all .5s;
+  }
+  
   nav .register {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -557,32 +600,50 @@ footer span p {
   }
   .item .toppers {
     list-style-type: none;
-    color: white;
-      display: inline;
-    font-size: 15px;
-   
+    font-size: 11px;
+     padding: 3px;
       text-decoration: none;
-      padding: 5px;
+      color:  white;
+      font-weight: 800;
+      text-transform: uppercase;
+  }
+  nav .enlaces  .item .toppers , nav .register .item .toppers{
+    position: relative;
+  }
+  nav ul li a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: darkslategray;
+    height: 3px;
+  }
+  nav ul li a:hover:after {
+    width: 100%;
+  }
+  .enlaces .item {
+    display: inline;
+    padding: 20px;
+  }
+  
+  .item.toppers, .item.toppers:after, .items.toppers:before{
+    transition: all .5s;
   }
    
-   nav.registro {
+   nav.register {
     grid-column-start: 3 ;
     grid-column-end: 4;
-  ;
+  
   }
   .register .item {
   display: inline;
   padding: 7px;
   }
-  .item .toppers:hover {
-    padding: 10px;
-    border-radius: 10%;
-    text-transform: uppercase;
-    transform: all 1s ease-in-out;
-    border: 2px solid black;
-   color: black;
   
-  }
 
   .texto-carousel {
     display: grid;
@@ -760,14 +821,41 @@ footer span p {
   }
 }
 
-  @media (min-width:901px) and (max-width: 1230px) {  
+  @media (min-width:1026px) and (max-width: 1450px) {  
     .item .toppers {
       list-style-type: none;
-      color: white;
-        display: inline;
-      font-size: 14px;
+      font-size: 13px;
+       padding: 4px;
         text-decoration: none;
-        padding: 7px;
+        color:  white;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    nav .enlaces  .item .toppers , nav .register .item .toppers{
+      position: relative;
+    }
+    nav ul li a::after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 0%;
+      content: '.';
+      color: transparent;
+      background: darkslategray;
+      height: 3px;
+    }
+    nav ul li a:hover:after {
+      width: 100%;
+    }
+    .enlaces .item {
+      display: inline;
+      padding: 20px;
+    }
+    
+    .item.toppers, .item.toppers:after, .items.toppers:before{
+      transition: all .5s;
     }
      nav.register {
       grid-column-start: 3 ;
