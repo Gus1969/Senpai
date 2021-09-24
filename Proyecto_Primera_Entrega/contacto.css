@@ -54,6 +54,27 @@
       text-decoration: none;
       padding: 7px;
   }
+  nav .enlaces  .item .toppers , nav .register .item .toppers{
+    position: relative;
+  }
+  nav ul li a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: darkslategray;
+    height: 3px;
+  }
+  nav ul li a:hover:after {
+    width: 100%;
+  }
+  .item.toppers, .item.toppers:after, .items.toppers:before{
+    transition: all .5s;
+  }
    
    nav.registro {
     grid-column-start: 3 ;
@@ -63,11 +84,7 @@
   display: inline;
   padding: 20px;
   }
-  .item .toppers:hover {
-    padding: 20px;
-    text-transform: uppercase;
-    transform: all 1s ease-in-out;
-  }
+  
 
   /* ///////////////////////////contacto/////////////////////// */
   section  {
@@ -212,7 +229,27 @@ footer  span  {
       display: inline;
     font-size: 15px;
       text-decoration: none;
-     
+  }
+  nav .enlaces  .item .toppers , nav .register .item .toppers{
+    position: relative;
+  }
+  nav ul li a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: darkslategray;
+    height: 3px;
+  }
+  nav ul li a:hover:after {
+    width: 100%;
+  }
+  .item.toppers, .item.toppers:after, .items.toppers:before{
+    transition: all .5s;
   }
   nav .register {
     grid-column-start: 1;
@@ -301,10 +338,30 @@ footer  span  {
       display: inline;
     font-size: 14px;
       text-decoration: none;
-    
+  }
+  nav .enlaces  .item .toppers , nav .register .item .toppers{
+    position: relative;
+  }
+  nav ul li a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: darkslategray;
+    height: 3px;
+  }
+  nav ul li a:hover:after {
+    width: 100%;
+  }
+  .item.toppers, .item.toppers:after, .items.toppers:before{
+    transition: all .5s;
   }
    
-   nav.registro {
+   nav.register{
     grid-column-start: 3 ;
     grid-column-end: 4;
   
@@ -314,11 +371,7 @@ footer  span  {
   padding: 8px;
  
   }
-  .item .toppers:hover {
   
-    text-transform: uppercase;
-    transform: all 1s ease-in-out;
-  }
   section {
     margin: 50px auto;
    max-width: 600px;
