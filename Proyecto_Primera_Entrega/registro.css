@@ -55,6 +55,27 @@
       text-decoration: none;
       padding: 10px;
   }
+  nav .enlaces  .item .toppers , nav .register .item .toppers{
+    position: relative;
+  }
+  nav ul li a::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background: darkslategray;
+    height: 3px;
+  }
+  nav ul li a:hover:after {
+    width: 100%;
+  }
+  .item.toppers, .item.toppers:after, .items.toppers:before{
+    transition: all .5s;
+  }
    
    nav.registro {
     grid-column-start: 3 ;
@@ -63,12 +84,6 @@
   .register .item {
   display: inline;
   padding: 20px;
-  }
-  .item .toppers:hover {
-    padding: 20px;
-    border-radius: 10%;
-    text-transform: uppercase;
-    transform: all 1s ease-in-out;
   }
   /* //////////////////////////////////////// formulario registro //////////////////////////////////// */
   .container {
@@ -243,9 +258,30 @@
       list-style-type: none;
       color: white;
         display: inline;
-      font-size: 15px;
+      font-size: 14px;
         text-decoration: none;
         padding-bottom: 20px;
+    }
+    nav .enlaces  .item .toppers , nav .register .item .toppers{
+      position: relative;
+    }
+    nav ul li a::after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 0%;
+      content: '.';
+      color: transparent;
+      background: darkslategray;
+      height: 3px;
+    }
+    nav ul li a:hover:after {
+      width: 100%;
+    }
+    .item.toppers, .item.toppers:after, .items.toppers:before{
+      transition: all .5s;
     }
     nav .register {
       grid-column-start: 1;
@@ -353,30 +389,41 @@
       color: white;
         display: inline;
       font-size: 14px;
-     
         text-decoration: none;
         padding: 8px;
     }
+    nav .enlaces  .item .toppers , nav .register .item .toppers{
+      position: relative;
+    }
+    nav ul li a::after {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 0%;
+      content: '.';
+      color: transparent;
+      background: darkslategray;
+      height: 3px;
+    }
+    nav ul li a:hover:after {
+      width: 100%;
+    }
+    .item.toppers, .item.toppers:after, .items.toppers:before{
+      transition: all .5s;
+    }
      
-     nav.registro {
+     nav.register{
       grid-column-start: 3 ;
       grid-column-end: 4;
     }
     .register .item {
     display: inline;
     padding: 7px;
-    
+  
     }
     
-    .item .toppers:hover {
-      padding: 7px;
-      border-radius: 10%;
-      text-transform: uppercase;
-      transform: all 1s ease-in-out;
-      border: 2px solid black;
-     color: black;
-    
-    }
     footer {
       display: grid;
       grid-template-columns: 1fr;
