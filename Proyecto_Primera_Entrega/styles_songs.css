@@ -162,7 +162,7 @@ form.example::after {
     margin: 100px 250px;
 }
 
-@media (min-width:768px) and (max-width:  1025px) {
+@media (min-width:768px) and (max-width:  1325px) {
   nav {
     display: grid;
   background: rgba(255, 0, 255, 0.7);
@@ -201,11 +201,11 @@ form.example::after {
   }
   .item .toppers {
     list-style-type: none;
-    font-size: 15px;
-     padding: 5px;
+    font-size: 12px;
+     padding: 2px;
       text-decoration: none;
       color:  white;
-      font-weight: 700;
+      font-weight: 800;
       text-transform: uppercase;
   }
   nav .enlaces  .item .toppers , nav .register .item .toppers{
@@ -213,11 +213,11 @@ form.example::after {
   }
   nav ul li a::after {
     position: absolute;
-    bottom: 0;
+    bottom: -5px;
     left: 0;
     right: 0;
     margin: auto;
-    width: 0%;
+    width: 2%;
     content: '.';
     color: transparent;
     background: darkslategray;
@@ -236,7 +236,7 @@ form.example::after {
   }
   .register .item {
   display: inline;
-  padding: 7px;
+  padding: 6px;
   }
  
   section {
@@ -318,12 +318,11 @@ form.example::after {
   }
   .enlaces .item {
     display: inline;
-    padding: 10px;
+    padding: 8px;
   }
   .item .toppers {
     list-style-type: none;
-    font-size: 14px;
-     padding: 4px;
+    font-size: 13px;
       text-decoration: none;
       color:  white;
       font-weight: 800;
@@ -334,11 +333,11 @@ form.example::after {
   }
   nav ul li a::after {
     position: absolute;
-    bottom: 0;
+    bottom: -4px;
     left: 0;
     right: 0;
     margin: auto;
-    width: 0%;
+    width: 3%;
     content: '.';
     color: transparent;
     background: darkslategray;
@@ -351,13 +350,13 @@ form.example::after {
     transition: all .5s;
   }
    
-   nav.registro {
+   nav.register {
     grid-column-start: 3 ;
     grid-column-end: 4;
   }
   .register .item {
   display: inline;
-  padding: 10px;
+  padding: 3px;
   }
  
 

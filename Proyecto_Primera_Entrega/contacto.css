@@ -48,11 +48,12 @@
   }
   .item .toppers {
     list-style-type: none;
-    color: white;
-      display: inline;
-    font-size: 20px;
+    font-size: 15px;
+      padding: 10px;
       text-decoration: none;
-      padding: 7px;
+      color:  white;
+      font-weight: 800;
+      text-transform: uppercase;
   }
   nav .enlaces  .item .toppers , nav .register .item .toppers{
     position: relative;
@@ -76,13 +77,13 @@
     transition: all .5s;
   }
    
-   nav.registro {
+   nav.register {
     grid-column-start: 3 ;
     grid-column-end: 4;
   }
   .register .item {
   display: inline;
-  padding: 20px;
+  padding: 10px;
   }
   
 
@@ -225,21 +226,23 @@ footer  span  {
   }
   .item .toppers {
     list-style-type: none;
-    color: white;
-      display: inline;
-    font-size: 15px;
+    font-size: 12px;
+      padding: 6px;
       text-decoration: none;
+      color:  white;
+      font-weight: 800;
+      text-transform: uppercase;
   }
   nav .enlaces  .item .toppers , nav .register .item .toppers{
     position: relative;
   }
   nav ul li a::after {
     position: absolute;
-    bottom: 0;
+    bottom: -4px;
     left: 0;
     right: 0;
     margin: auto;
-    width: 0%;
+    width: 2%;
     content: '.';
     color: transparent;
     background: darkslategray;
@@ -334,21 +337,23 @@ footer  span  {
   }
   .item .toppers {
     list-style-type: none;
-    color: white;
-      display: inline;
-    font-size: 14px;
+    font-size: 12px;
+      padding: 2px;
       text-decoration: none;
+      color:  white;
+      font-weight: 800;
+      text-transform: uppercase;
   }
   nav .enlaces  .item .toppers , nav .register .item .toppers{
     position: relative;
   }
   nav ul li a::after {
     position: absolute;
-    bottom: 0;
+    bottom: -3px;
     left: 0;
     right: 0;
     margin: auto;
-    width: 0%;
+    width: 2%;
     content: '.';
     color: transparent;
     background: darkslategray;
@@ -368,7 +373,7 @@ footer  span  {
   }
   .register .item {
   display: inline;
-  padding: 8px;
+  padding: 6px;
  
   }
   

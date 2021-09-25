@@ -50,8 +50,8 @@
   }
   .item .toppers {
     list-style-type: none;
-    font-size: 13px;
-      padding: 2px;
+    font-size: 15px;
+      padding: 10px;
       text-decoration: none;
       color:  white;
       font-weight: 800;
@@ -195,11 +195,11 @@
     }
     nav ul li a::after {
       position: absolute;
-      bottom: 0;
+      bottom: -5px;
       left: 0;
       right: 0;
       margin: auto;
-      width: 0%;
+      width: 2%;
       content: '.';
       color: transparent;
       background: darkslategray;
@@ -314,7 +314,7 @@
     }
     .item .toppers {
       list-style-type: none;
-      font-size: 11px;
+      font-size: 13px;
        padding: 2px;
         text-decoration: none;
         color:  white;
@@ -326,11 +326,11 @@
     }
     nav ul li a::after {
       position: absolute;
-      bottom: 0;
+      bottom: -4px;
       left: 0;
       right: 0;
       margin: auto;
-      width: 0%;
+      width: 2%;
       content: '.';
       color: transparent;
       background: darkslategray;
