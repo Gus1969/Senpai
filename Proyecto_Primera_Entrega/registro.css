@@ -104,6 +104,7 @@
       margin: 30px auto;
       color: white;
       margin-top: 30px;
+      align-items: center;
      
 
   }
@@ -237,7 +238,7 @@
     nav {
       width: 100%;
       grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr;
+      grid-template-rows: 50px 50px 50px;
     }
     nav.logo {
       grid-column-start: 1;
@@ -257,8 +258,7 @@
     }
     .item .toppers {
       list-style-type: none;
-      font-size: 12px;
-        padding: 6px;
+      font-size: 13px;
         text-decoration: none;
         color:  white;
         font-weight: 800;
@@ -293,13 +293,14 @@
       justify-content: space-between;
       padding-bottom: 35px;
     }
-    form {
-      justify-self: center;
-    }
+    
     .register .item {
       display: inline;
       padding: 8px;
       font-size: 15px;
+      }
+      form {
+        justify-self: center;
       }
       input[type=text], input[type=password] {
         width: 300px;
